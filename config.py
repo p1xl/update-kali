@@ -14,7 +14,7 @@ are_we_on_wsl = os.path.exists("/mnt/c/Windows/System32/wsl.exe")
 
 if 'Kali' in release:
     # These directories will be removed from your home directory
-    directories_to_remove = ['Documents', 'Music', 'Pictures', 'Public', 'Templates', 'Videos']
+    directories_to_remove = ['Music', 'Pictures', 'Public', 'Templates', 'Videos']
 
     # These kali packages will be installed
     packages_to_install = ['most', 'ttf-mscorefonts-installer', 'pydf', 'htop', 'gobuster', 'amass',
